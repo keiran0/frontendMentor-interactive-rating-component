@@ -1,0 +1,110 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Ubuntu', sans-serif;
+    height: 95vh;
+    width: 95vw;
+    padding: 5px;
+}
+
+.hidden {
+    display:none;
+}
+
+.container {
+    max-width: 390px;
+    margin: calc(50vh - 275px) auto 0 auto;
+    padding: 30px;
+    background-color: rgb(33, 40, 50);
+    border-radius: 40px;
+    min-height: 410px;
+}
+
+.star-container {
+    display: inline-block;
+    padding: 15px;
+    background-color: rgb(38, 47, 56);
+    border-radius: 50%;
+    line-height: 0;
+    margin: 2% 0;
+}
+
+.rating-heading {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size: 200%
+}
+
+.rating-prompt {
+    color:hsl(217, 12%, 63%);
+    line-height: 1.5;
+}
+
+.button-row {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.rating {
+    flex-grow: 1;
+    border-radius: 50%;
+    padding: 7% 6%;
+    margin: 3%;
+    line-height: 0;
+    background-color: rgb(38, 47, 56);
+    color:hsl(217, 12%, 63%);
+    border: none;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.selected-rating {
+    color: hsl(0, 0%, 100%);
+    background: hsl(25, 97%, 53%);
+
+}
+
+.submit {
+    width: 100%;
+    max-width: 100%;
+    margin: 5% auto;
+    padding: 15px;
+    display: block;
+    border-radius: 40px;
+    background-color: hsl(25, 97%, 53%);
+    color:hsl(0, 0%, 100%);
+    border: none;
+    font-size: 17px;
+
+}
+
+.submit:hover {
+    color:hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+.thankyou-state {
+    text-align: center;
+}
+
+.selection-comment {
+    background-color: rgb(38, 47, 56);
+    color: hsl(25, 97%, 53%);
+    display: inline-block;
+    width:50%;
+    border-radius: 30px;
+    margin: 40px;
+    padding: 10px;
+}
+
+.thank {
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    font-size: 200%;
+    line-height:0;
+    margin-bottom: 15%;
+}
+
+.appreciation {
+    color:hsl(217, 12%, 63%);
+    line-height: 1.5;
+}
